@@ -3,6 +3,7 @@ package nodetool
 import (
 	"fmt"
 	"testing"
+
 	"github.com/yanniszark/go-nodetool/client"
 )
 

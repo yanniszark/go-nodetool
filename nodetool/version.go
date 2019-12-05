@@ -2,6 +2,7 @@ package nodetool
 
 import (
 	"encoding/json"
+
 	"github.com/yanniszark/go-nodetool/client"
 	"github.com/yanniszark/go-nodetool/version"
 )

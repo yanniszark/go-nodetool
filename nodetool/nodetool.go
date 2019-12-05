@@ -1,9 +1,10 @@
 package nodetool
 
 import (
-	"github.com/yanniszark/go-nodetool/client"
 	"net/http"
 	"net/url"
+
+	"github.com/yanniszark/go-nodetool/client"
 )
 
 const (

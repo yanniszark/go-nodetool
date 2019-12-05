@@ -2,8 +2,6 @@ package nodetool
 
 import (
 	"fmt"
-	"github.com/pborman/uuid"
-	"github.com/yanniszark/go-nodetool/client"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -11,6 +9,9 @@ import (
 	"os"
 	"reflect"
 	"testing"
+
+	"github.com/pborman/uuid"
+	"github.com/yanniszark/go-nodetool/client"
 )
 
 func TestNodeToolStatus(t *testing.T) {

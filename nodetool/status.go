@@ -3,6 +3,7 @@ package nodetool
 import (
 	"encoding/json"
 	"fmt"
+
 	"github.com/pborman/uuid"
 	"github.com/yanniszark/go-nodetool/client"
 	"k8s.io/apimachinery/pkg/util/sets"

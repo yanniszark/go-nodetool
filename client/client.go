@@ -21,6 +21,7 @@
 package client
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -28,8 +29,6 @@ import (
 	"net/url"
 
 	"github.com/pborman/uuid"
-
-	"bytes"
 	"github.com/yanniszark/go-nodetool/version"
 )
 

@@ -14,8 +14,9 @@
 package version_test
 
 import (
-	"github.com/yanniszark/go-nodetool"
 	"testing"
+
+	"github.com/yanniszark/go-nodetool/version"
 )
 
 func TestUnmarshalJSON(t *testing.T) {
